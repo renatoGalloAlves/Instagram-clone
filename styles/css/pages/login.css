@@ -10,6 +10,9 @@ body {
 * {
   font-family: Arial; }
 
+html {
+  font-size: 10px; }
+
 .login-container {
   display: flex;
   justify-content: center;
@@ -28,6 +31,7 @@ body {
       height: auto;
       margin-bottom: 39px; }
     .login-container .form-container .imput-form {
+      font-size: 1.4rem;
       width: 100%;
       height: 44px;
       margin: 6px 0;
@@ -35,6 +39,28 @@ body {
       box-sizing: border-box;
       border: 0.5px solid rgba(0, 0, 0, 0.1);
       border-radius: 5px;
-      background-color: #fafafa; }
+      background-color: #fafafa;
+      color: #262626; }
+      .login-container .form-container .imput-form:focus {
+        outline: none; }
+      .login-container .form-container .imput-form::placeholder {
+        color: rgba(0, 0, 0, 0.2); }
+    .login-container .form-container .forgot-password {
+      color: #3797ef;
+      font-size: 1.2rem;
+      margin-top: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      align-self: flex-end; }
+    .login-container .form-container .link-submit {
+      width: 100%; }
+      .login-container .form-container .link-submit .btn-submit {
+        width: 100%;
+        height: 44px;
+        background-color: #3797ef;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        margin-top: 30px; }
 
 /*# sourceMappingURL=login.css.map */
