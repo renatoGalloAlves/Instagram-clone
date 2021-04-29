@@ -1,3 +1,30 @@
+* {
+  margin: 0;
+  padding: 0; }
 
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+* {
+  font-family: Arial; }
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 16px; }
+  .login-container .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .login-container .form-container .logo-img {
+      width: 182px;
+      height: auto;
+      margin-bottom: 39px; }
 
 /*# sourceMappingURL=login.css.map */
